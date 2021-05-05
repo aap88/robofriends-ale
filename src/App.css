@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Federal Service Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Federal Service Regular'), url('FederalService-rZY9.woff') format('woff');
+    }
+
+h1 {
+    font-family: 'Federal Service Regular';
+    font-weight: 200;
+    color: #0ccac4;
+}
