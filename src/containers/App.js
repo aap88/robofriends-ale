@@ -10,6 +10,7 @@ function App() {
 
     const [robots, setRobots] = useState([])
     const [searchfield, setSearchField] = useState('')
+    const [count, setCount] = useState(0)
 
     // run everytime App renders
     useEffect(() => {
@@ -30,6 +31,7 @@ function App() {
         (
             <div className='tc'>
                 <h1 className='f1'>RoboFriends</h1>
+                <button onClick={() => setCount(count+1)}>Click me!</button>
                 <SearchBox searchChange={onSearchChange} />
                 <Scroll>
                     <ErrorBoundary>
